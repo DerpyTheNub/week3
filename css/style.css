@@ -1,0 +1,66 @@
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-container {
+    max-width: 300px;
+    background-color: rgba(144, 192, 201, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(12, 19, 19, 0.3);
+}
+
+h2 {
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    color: rgb(92, 148, 148);
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 5px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(179, 255, 255);
+    font-size: 18px;
+}
+
+input {
+    width: 95%;
+    padding: 4px;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+}
+
+.login-button {
+    padding: 5px 20px;
+    font-size: 16px;
+    background-color: rgba(186, 250, 255, 0.75);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    vertical-align: center;
+    transition: background-color 0.3s ease;
+    margin-left: 35%;
+}
+
+button:hover {
+    background-color: rgb(186, 250, 255);
+}
+
+.login-message {
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgb(224, 141, 120);
+    text-align: center;
+}
